@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app  xmlns="http://java.sun.com/xml/ns/j2ee"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"   version="2.4" >
+  <display-name>NewHotelReservation</display-name>
+  <welcome-file-list>
+    <welcome-file>Login.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>HotelReservationContoller</display-name>
+    <servlet-name>HotelReservationContoller</servlet-name>
+    <servlet-class>main.controller.HotelReservationContoller</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>HotelReservationContoller</servlet-name>
+    <url-pattern>/HotelReservationContoller</url-pattern>
+  </servlet-mapping>
+
+
+
+</web-app>
